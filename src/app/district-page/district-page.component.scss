@@ -7,8 +7,8 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  img {
-  }
+  // img {
+  // }
 
   p {
     font-family: sans-serif;
@@ -71,9 +71,9 @@
   gap: 7rem;
 }
 
-.image-container {
-  // width: 400px;
-}
+// .image-container {
+//   // width: 400px;
+// }
 .dynamic-data {
   display: none;
 }
@@ -98,6 +98,18 @@
       letter-spacing: 1px;
     }
   }
+}
+/* First span (Total Districts label) */
+.static-card span:nth-of-type(1) {
+  color: var(--color9);  /* Example: Blue or Grey */
+  font-weight: bold;
+}
+
+/* Second span (Number value) */
+.static-card span:nth-of-type(2) {
+  color: var(--color5); /* Example: Red or Dark */
+  font-weight: bold;
+  margin-left: 10px; /* Adds spacing between the text and the number */
 }
 
 .blue-back {
@@ -179,9 +191,9 @@
   .district-div {
     flex-direction: column;
   }
-  .image-container {
-    // width: 16rem;
-  }
+  // .image-container {
+  //   // width: 16rem;
+  // }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {

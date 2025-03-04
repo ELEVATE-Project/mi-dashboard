@@ -10,14 +10,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --color1: #fff;
-  --color2: #93c6d2;
-  --color3: #278ea6;
-  --color4: #358a9b;
-  --color5: #0f3640;
-  --color6: #cdedfb;
-  --color7: #e6f6fd;
-  --white: #fff;
+  --color1: #fff; //complete bg
+  --color2: #030303; 
+  --color3: #808080; //Map-active
+  --color4: #030303; //Text color
+  --color5: #030303; //bottom note
+  --color6: #adacaf; //Map-inactive
+  --color7: #fcf9fb; //box colors
+  --color8: #353433; //map-hover
+  --color9: #030303; //Header
+  --white: #020202; //Last box text
 }
 
 .container {
@@ -32,12 +34,23 @@
   // padding-top: 2rem;
 }
 
+// body {
+//   // font-family: "Oswald", sans-serif;
+//   font-family: "Roboto Condensed", sans-serif;
+//   font-optical-sizing: auto;
+//   margin: 0 !important;
+//   background-image: url(../src/assets/images/background1.jpg);
+// }
 body {
-  // font-family: "Oswald", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   margin: 0 !important;
-  background-color: var(--color1);
+  height: 100vh;
+  background-image: url(../src/assets/images/bg5.png);
+  background-size: auto 150%;
+  background-position: left bottom; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
 }
 
 .animate {
