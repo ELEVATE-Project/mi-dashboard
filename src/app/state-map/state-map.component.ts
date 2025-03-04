@@ -145,16 +145,16 @@ export class StateMapComponent implements OnInit {
               // var id = d.properties.district.split(' ').join('');
               var id = d.properties.district;
               if (INACTIVE_LOCATIONS_WITH_CLICK_DISABLED.includes(id)) {
-                return '#f5f5f5';
+                return '#f0f0f0';
               }
               else if (loc.includes(id)) {
-                return '#808080';
+                return '#572e91';
               }
               else if (INACTIVE_LOCATIONS_WITH_CLICK_ENABLED.includes(id)) {
-                return '#adacaf';
+                return '#A176DD';
               }
               else {
-                return '#f5f5f5';
+                return '#f0f0f0';
               }
               // return loc.includes(id) ? '#278ea6' : '#cdedfb';
             })
