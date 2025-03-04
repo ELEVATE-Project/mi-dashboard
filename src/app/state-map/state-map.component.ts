@@ -148,10 +148,10 @@ export class StateMapComponent implements OnInit {
                 return '#f5f5f5';
               }
               else if (loc.includes(id)) {
-                return '#278ea6';
+                return '#808080';
               }
               else if (INACTIVE_LOCATIONS_WITH_CLICK_ENABLED.includes(id)) {
-                return '#cdedfb';
+                return '#adacaf';
               }
               else {
                 return '#f5f5f5';

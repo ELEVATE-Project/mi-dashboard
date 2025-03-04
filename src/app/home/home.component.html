@@ -1,6 +1,6 @@
 <div class="container container-fluid">
   <div class="img-logo animate delay-1">
-    <img  src="{{ url + logo }}" />
+    <img class="h64" src="../../assets/images/shikshagrahaLogo.png" />
   </div>
   <div class=" map-data">
     <div class="animate delay-2 upper-static-data">
@@ -10,18 +10,15 @@
       <div class="delay-2">
         <div class="static-data">
       
-          <div *ngIf="!districtReached" class="static-card blue-light">
-            <span>
-              Total Districts:
-            </span>
+          <div *ngIf="!districtReached" class="static-card">
+            <span>Total Districts:</span>
             <span>{{
               convertToIndianNumberingSystem(InitialEducationalParameters?.Districts
-              ? InitialEducationalParameters?.Districts
-              : 0)
-              }}</span>
-      
-          </div>
-          <div *ngIf="districtReached" class="static-card blue-light">
+                ? InitialEducationalParameters?.Districts
+                : 0)
+            }}</span>
+          </div>          
+          <div *ngIf="districtReached" class="static-card">
             <span></span>
             <span>
               {{
@@ -31,7 +28,7 @@
               }}
             </span>
           </div>
-          <div class="static-card blue-light-alter">
+          <div class="static-card">
             <span>Total Schools:</span>
             <span>{{
               convertToIndianNumberingSystem(InitialEducationalParameters?.TotalSchools
@@ -40,7 +37,7 @@
       
               }}</span>
           </div>
-          <div class="static-card blue-back">
+          <div class="static-card">
             <span>Total Students:</span>
             <span>
               {{
@@ -50,7 +47,7 @@
               }}
             </span>
           </div>
-          <div class="static-card blue-light">
+          <div class="static-card">
             <span>NAS(Grade 3):</span>
       
             <span>
@@ -58,7 +55,7 @@
             </span>
       
           </div>
-          <div class="static-card blue-light-alter">
+          <div class="static-card">
             <span>NAS(Grade 5):</span>
       
             <span>
@@ -66,7 +63,7 @@
             </span>
       
           </div>
-          <div class="static-card blue-back">
+          <div class="static-card">
             <span>NAS(Grade 8):</span>
       
             <span>
@@ -126,7 +123,7 @@
             <span>
               Shikshagrāha Partners</span>
           </li>
-          <li *ngIf="districtReached" class="dynamic-card bullet-brown-dark blue-light-alter ">
+          <li *ngIf="districtReached" class="dynamic-card bullet-brown-dark blue-light ">
             <span>{{
               InitialProgramParameters?.ShikshagrahaPartner
               ? InitialProgramParameters?.ShikshagrahaPartner
@@ -135,7 +132,7 @@
             <span>
               Shikshagrāha Partners</span>
           </li>
-          <li *ngIf="!districtReached" class="dynamic-card bullet-brown-darker blue-light-alter ">
+          <li *ngIf="!districtReached" class="dynamic-card bullet-brown-darker blue-light ">
             <span>
               {{
               InitialProgramParameters?.ProgramsStarted
@@ -146,7 +143,7 @@
             <span>
               Program Started</span>
           </li>
-          <li class="dynamic-card bullet-brown-light blue-light-alter">
+          <li class="dynamic-card bullet-brown-light blue-light">
             <span>
               {{
               InitialProgramParameters?.SchoolsReached
@@ -157,7 +154,7 @@
             <span>
               Schools Reached</span>
           </li>
-          <li class="dynamic-card bullet-brown-darker blue-back ">
+          <li class="dynamic-card bullet-brown-darker blue-light ">
             <span>
               {{convertToIndianNumberingSystem(
               InitialProgramParameters?.MicroImprovementsTriggered
@@ -169,7 +166,7 @@
               Micro-improvements Triggered
             </span>
           </li>
-          <li class="dynamic-card bullet-brown-medium blue-back ">
+          <li class="dynamic-card bullet-brown-medium blue-light ">
             <span>{{convertToIndianNumberingSystem(
               InitialProgramParameters?.StudentsReached
               ? InitialProgramParameters?.StudentsReached
