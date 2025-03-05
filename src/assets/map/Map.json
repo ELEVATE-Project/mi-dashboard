@@ -1,7 +1,7 @@
 {
   "India": {
     "EducationalParameters": {
-      "TotalStates": 14,
+      "TotalStates": 15,
       "Districts": 750,
       "NAS_Grade3": 59,
       "NAS_Grade5": 49,
@@ -1152,9 +1152,9 @@
       {
         "EducationalParameters": {
           "Districts": 23,
-          "NAS_Grade3": 57.6,
-          "NAS_Grade5": 27.7,
-          "NAS_Grade8": 35.9,
+          "NAS_Grade3": 71.6,
+          "NAS_Grade5": 61.6,
+          "NAS_Grade8": 54,
           "TotalSchools": 0,
           "TotalStudents": 0
         },
@@ -1172,20 +1172,20 @@
           {
             "EducationalParameters": {
               "Type": "NA",
-              "NAS_Grade5": 48.2,
-              "NAS_Grade3": 54.8,
-              "NAS_Grade8": 33.5,
-              "TotalSchools": 1364,
-              "TotalStudents": 236365
+              "NAS_Grade5": 66.3,
+              "NAS_Grade3": 75.6,
+              "NAS_Grade8": 57.5,
+              "TotalSchools": 1316,
+              "TotalStudents": 206746
             },
             "ProgramParameters": {
-              "ShikshagrahaPartner": "Vidya Vidhai",
+              "ShikshagrahaPartner": "Sanjhi Sikhiya",
               "SchoolsReached": 181,
               "StudentsReached": 5000,
               "EducationalLeadersInvolved": 0,
               "MicroImprovementsTriggered": 123
             },
-            "DistrictName": "Nagapattinam",
+            "DistrictName": "Patiala",
             "Partner": "Vidya Vidhai",
             "Partner_Logo": "Copy of Vidhya Vidhai.png",
             "Partner_Link": "https://vidhyavidhai.org/",
@@ -1194,6 +1194,139 @@
               "VidhyaVidhai_Nagapattinam2.jpeg"
             ],
             "Partner_Description": "Vidya Vidhai's School House System in Nagapattinam Government schools is a transformative educational initiative. It addresses multifaceted challenges by fostering a nurturing and inclusive learning environment. Through competition, mentorship, and inclusivity, it aims to cultivate academically proficient, socially responsible, and emotionally resilient individuals, ensuring every student has the opportunity to thrive and contribute to society positively."
+          },
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 64,
+              "NAS_Grade3": 69.6,
+              "NAS_Grade8": 52,
+              "TotalSchools": 649,
+              "TotalStudents": 120554
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Slam Out Loud",
+              "SchoolsReached": 181,
+              "StudentsReached": 5000,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 123
+            },
+            "DistrictName": "Mohali",
+            "Partner": "Vidya Vidhai",
+            "Partner_Logo": "Copy of Vidhya Vidhai.png",
+            "Partner_Link": "https://vidhyavidhai.org/",
+            "image": [
+              "VidhyaVidhai_Nagapattinam1.jpeg",
+              "VidhyaVidhai_Nagapattinam2.jpeg"
+            ],
+            "Partner_Description": "Vidya Vidhai's School House System in Nagapattinam Government schools is a transformative educational initiative. It addresses multifaceted challenges by fostering a nurturing and inclusive learning environment. Through competition, mentorship, and inclusivity, it aims to cultivate academically proficient, socially responsible, and emotionally resilient individuals, ensuring every student has the opportunity to thrive and contribute to society positively."
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 33,
+          "NAS_Grade3": 45.6,
+          "NAS_Grade5": 38.6,
+          "NAS_Grade8": 37.25,
+          "TotalSchools": 1960,
+          "TotalStudents": 170219
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 2,
+          "SchoolsReached": 1932,
+          "StudentsReached": 141856,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 15000
+        },
+        "StateName": "Telangana",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 41.3,
+              "NAS_Grade3": 49.6,
+              "NAS_Grade8": 40.5,
+              "TotalSchools": 72,
+              "TotalStudents": 26810
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Bharat Dekho",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Vikarabad",
+            "Partner": "ShikshaLokam",
+            "Partner_Logo": "Shikshalokam.webp",
+            "Partner_Link": "https://shikshalokam.org/",
+            "Partner_Description": "ShikshaLokam collaborates with education authorities like DoSEL, MoE, NCERT, CBSE, and NCTE to enhance educational leadership, governance, and monitoring systems. Through initiatives like the Vidya Amrit Initiative and DIKSHA, they aim to improve education quality and access. Additionally, partnerships with CBSE and NCTE facilitate the implementation of frameworks like School Quality Assessment and the National Mission on Mentoring, contributing to comprehensive educational development."
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 12,
+          "NAS_Grade3": 48.6,
+          "NAS_Grade5": 40,
+          "NAS_Grade8": 34.75,
+          "TotalSchools": 7783,
+          "TotalStudents": 41021
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 2,
+          "SchoolsReached": 1932,
+          "StudentsReached": 14185,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 15000
+        },
+        "StateName": "Meghalaya",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 48,
+              "NAS_Grade3": 57,
+              "NAS_Grade8": 40.4,
+              "TotalSchools": 196,
+              "TotalStudents": 51860
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "NEAID",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "East Khasi Hills",
+            "Partner": "ShikshaLokam",
+            "Partner_Logo": "Shikshalokam.webp",
+            "Partner_Link": "https://shikshalokam.org/",
+            "Partner_Description": "ShikshaLokam collaborates with education authorities like DoSEL, MoE, NCERT, CBSE, and NCTE to enhance educational leadership, governance, and monitoring systems. Through initiatives like the Vidya Amrit Initiative and DIKSHA, they aim to improve education quality and access. Additionally, partnerships with CBSE and NCTE facilitate the implementation of frameworks like School Quality Assessment and the National Mission on Mentoring, contributing to comprehensive educational development."
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 38.6,
+              "NAS_Grade3": 48,
+              "NAS_Grade8": 35.75,
+              "TotalSchools": 196,
+              "TotalStudents": 51860
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Mantra4Change",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "West Jaintia Hills",
+            "Partner": "ShikshaLokam",
+            "Partner_Logo": "Shikshalokam.webp",
+            "Partner_Link": "https://shikshalokam.org/",
+            "Partner_Description": "ShikshaLokam collaborates with education authorities like DoSEL, MoE, NCERT, CBSE, and NCTE to enhance educational leadership, governance, and monitoring systems. Through initiatives like the Vidya Amrit Initiative and DIKSHA, they aim to improve education quality and access. Additionally, partnerships with CBSE and NCTE facilitate the implementation of frameworks like School Quality Assessment and the National Mission on Mentoring, contributing to comprehensive educational development."
           }
         ]
       }
